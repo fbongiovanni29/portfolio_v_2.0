@@ -1,28 +1,132 @@
 body {
 	margin: 0 auto;
 	background-color: #ADADFF;
+	font-family: 'Roboto', sans-serif;
+	color: #ADADFF;
 	overflow: hidden;
 }
 
-h1 {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 450%;
-	color: #141466;
-        text-shadow:  6px 8px 4px rgba(106,106,110,0.75);
+.container {
+	margin: 0 auto;
+	width: 1200px;
 }
 
-nav {
+nav, .footer {
 	margin: 0;
 	height: 75px;
 	background-color: #141466;
-	font-size: 45px;
-	padding-left: 50px;
+	font-size: 100px;
 	box-shadow: 0px 15px 12px 2px rgba(106,106,110,0.75);
+	font-size: 45px;
+	position: fixed;
+	width: 100%;
 }
+
+nav {
+	top: 0;
+}
+
+.navhead {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 40px;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	box-shadow: -5px -15px 6px 2px rgba(106,106,110,0.75);
+}
+
+.home {
+	margin: 0 auto;
+	width: 900px;
+	margin-top: 135px;
+	height: 500px;
+	background-color: #141466;
+	box-shadow: -15px 20px 12px 4px rgba(106,106,110,0.75);
+}
+
+.homeright {
+	width: 350px;
+	float: right;
+	margin-right: 25px;
+}
+
+
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
 
 i {
 	color: #ADADFF;
 	margin: 10px;
 }
+
+i:hover {
+	color: white;
+}
+
+
+a{
+	color: #ADADFF;
+	text-decoration: none;
+}
+
+.me {
+	height: 500px;
+	width: 500px;
+}
+
+p {
+	color: white;
+}
+
+.site {
+	margin-top: 100px;
+	background-color: #141466;
+	height: 400px;
+	width: 580px;
+	margin-bottom: 150px;
+	text-align: right;
+	box-shadow: -15px 20px 12px 4px rgba(106,106,110,0.75);
+}
+
+.blue {
+	color: #ADADFF;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.blue:hover {
+	color: white;
+}
+
+.siteshot {
+	width: 580px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.portfolio {
+	margin: 0 auto;
+	margin-top: 90px;
+}
 	
+a:active {
+	color: white;
+}
