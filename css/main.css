@@ -1,8 +1,7 @@
 body {
 	margin: 0 auto;
-	background-color: #ADADFF;
+	background-color: #C5CAE9;
 	font-family: 'Roboto', sans-serif;
-	color: #ADADFF;
 	overflow: hidden;
 }
 
@@ -11,10 +10,10 @@ body {
 	width: 1200px;
 }
 
-nav, .footer {
+nav {
 	margin: 0;
 	height: 75px;
-	background-color: #141466;
+	background-color: #303F9F;
 	font-size: 100px;
 	box-shadow: 0px 15px 12px 2px rgba(106,106,110,0.75);
 	font-size: 45px;
@@ -33,19 +32,13 @@ nav {
 	font-size: 40px;
 }
 
-.footer {
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-	box-shadow: -5px -15px 6px 2px rgba(106,106,110,0.75);
-}
 
 .home {
 	margin: 0 auto;
 	width: 900px;
 	margin-top: 135px;
 	height: 500px;
-	background-color: #141466;
+	background-color: #3F51B5;
 	box-shadow: -15px 20px 12px 4px rgba(106,106,110,0.75);
 }
 
@@ -67,17 +60,17 @@ h3 {
 
 
 i {
-	color: #ADADFF;
+	color: #C5CAE9;
 	margin: 10px;
 }
 
-i:hover {
+.fa:hover {
 	color: white;
 }
 
 
 a{
-	color: #ADADFF;
+	color: #C5CAE9;
 	text-decoration: none;
 }
 
@@ -92,7 +85,7 @@ p {
 
 .site {
 	margin-top: 100px;
-	background-color: #141466;
+	background-color: #303F9F;
 	height: 400px;
 	width: 580px;
 	margin-bottom: 150px;
@@ -101,7 +94,7 @@ p {
 }
 
 .blue {
-	color: #ADADFF;
+	color: #C5CAE9;
 	margin: 10px;
 	font-size: 20px;
 }
@@ -129,4 +122,34 @@ p {
 	
 a:active {
 	color: white;
+}
+
+/* +ICON STUFF HERE */
+
+.material-icons {
+	position: fixed;
+	color: red;
+	float: right;
+	font-size: 100px !important;
+	bottom: 0px;
+	right: 10px;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+
+}
+
+.icon-wrapper {
+	position: fixed;
+	background-color: white;
+	height: 84px;
+	width: 83px;
+	float: right;
+	bottom: 18px;
+	right: 28px;
+	border-radius: 41px;
+	box-shadow: 0px 0px 7px 5px rgba(106,106,110,0.75);
+}
+
+.icon-wrapper:hover {
+	box-shadow: 0px 0px 13px 3px rgba(106,106,110,0.75);
 }
